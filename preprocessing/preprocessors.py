@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from stockstats import StockDataFrame as Sdf
-from config import config
+#from config import config
 
 def load_dataset(*, file_name: str) -> pd.DataFrame:
     """
