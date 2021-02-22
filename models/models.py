@@ -15,12 +15,12 @@ from stable_baselines.common.policies import MlpPolicy, MlpLstmPolicy, MlpLnLstm
 from stable_baselines.common.noise import NormalActionNoise, OrnsteinUhlenbeckActionNoise, AdaptiveParamNoiseSpec
 from stable_baselines.common.vec_env import DummyVecEnv
 from preprocessing.preprocessors import *
-from config import config
+#from config import config
 
 #Own created environments
-from env.Envmultiplestock_train import StockEnvTrain
-from env.Envmultiplestock_valid import StockEnvValidation
-from env.Envmultiplestock_trade import StockEnvTrade
+from envs.Envmultiplestock_train import StockEnvTrain
+from envs.Envmultiplestock_valid import StockEnvValidation
+from envs.Envmultiplestock_trade import StockEnvTrade
 
 def train_A2C(env_train, model_name, timesteps=25000):
     """A2C model"""
