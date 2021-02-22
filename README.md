@@ -12,5 +12,11 @@ Install it using following set of codes
 pip install stable_baselines
 ```
 **Note** This library currently will not be able to directly use GAIL and other algorithms mentioned in the paper. For that case it will be better to use the [stable_baseline](https://github.com/hill-a/stable-baselines) also the TensorFlow 2.0 is not supportable and the library might not be suitbale to use for Notebook.
-also another important required library is [gym](https://gym.openai.com/docs/#installation)
+
+Also another important required library is [gym](https://gym.openai.com/docs/#installation) and [stockstats](https://libraries.io/pypi/stockstats)
+using
+```bash
+pip install stockstats
+pip install gym
+```
 
