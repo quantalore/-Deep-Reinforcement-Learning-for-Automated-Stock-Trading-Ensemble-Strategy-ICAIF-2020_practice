@@ -9,7 +9,7 @@ I have re implemented the similar model using the [sample_baseline3](https://sta
 ### Installation
 Install it using following set of codes
 ```bash
-pip install stable_baselines
+pip install stable_baselines3
 ```
 **Note** This library currently will not be able to directly use GAIL and other algorithms mentioned in the paper. For that case it will be better to use the [stable_baseline](https://github.com/hill-a/stable-baselines) also the TensorFlow 2.0 is not supportable and the library might not be suitbale to use for Notebook.
 
