@@ -20,3 +20,5 @@ pip install stockstats
 pip install gym
 ```
 
+#### Presentation
+Please check my brief [presentation](https://github.com/quantalore/-Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020_practice/blob/main/Presentation_description_about_model.pdf) for brief understanding about the model.
